@@ -391,6 +391,7 @@ function! s:CheckForExCtags(silent) abort
         let ctagsbins  = []
         let ctagsbins += ['ctags-exuberant'] " Debian
         let ctagsbins += ['exuberant-ctags']
+        let ctagsbins += ['uctags'] " FreeBSD
         let ctagsbins += ['exctags'] " FreeBSD, NetBSD
         let ctagsbins += ['/usr/local/bin/ctags'] " Homebrew
         let ctagsbins += ['/opt/local/bin/ctags'] " Macports
